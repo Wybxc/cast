@@ -1,0 +1,4 @@
+(library
+ (name cast) 
+ (libraries core pprint yojson)
+ (preprocess (pps ppx_deriving.show)))

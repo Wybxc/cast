@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "_opam": true
+    },
+    "ocaml.sandbox": {
+        "kind": "opam",
+        "switch": "${workspaceFolder:cast}"
+    }
+}

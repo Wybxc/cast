@@ -1,0 +1,5 @@
+(executable
+ (public_name cast)
+ (name main)
+ (libraries cast core)
+ (preprocess (pps ppx_deriving.show)))
